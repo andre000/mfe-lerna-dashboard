@@ -47,8 +47,8 @@
   <script type="systemjs-importmap">
     {
       "imports": {
-        "@single-spa/welcome": "https://unpkg.com/single-spa-welcome/dist/single-spa-welcome.js",
-        "@andre000/root-config": "//localhost:9000/andre000-root-config.js"
+        "@andre000/root-config": "//localhost:9000/andre000-root-config.js",
+        "@andre000/sidebar": "//localhost:8080/js/app.js"
       }
     }
   </script>
@@ -75,9 +75,12 @@
       <!-- <nav>
         <application name="@<%- orgName %>/navbar"></application>
       </nav> -->
+      <nav>
+        <application name="@<%- orgName %>/sidebar"></application>
+      </nav>
       <main>
         <route default>
-          <application name="@single-spa/welcome"></application>
+          
         </route>
       </main>
     </single-spa-router>

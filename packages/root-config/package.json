@@ -2,6 +2,7 @@
   "name": "@andre000/root-config",
   "scripts": {
     "start": "webpack serve --port 9000 --env isLocal",
+    "serve": "webpack serve --port 9000 --env isLocal",
     "lint": "eslint src --ext js",
     "test": "cross-env BABEL_ENV=test jest --passWithNoTests",
     "format": "prettier --write \"./**\"",
