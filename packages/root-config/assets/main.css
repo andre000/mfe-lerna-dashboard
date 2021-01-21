@@ -1,0 +1,13 @@
+body {
+  display: grid;
+  grid-template-columns: 0.4fr 1.6fr;
+  grid-template-rows: 1fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    "sidebar content";
+}
+
+body > nav { grid-area: sidebar; height: 100%; }
+body > nav > div { height: 100%; }
+body > main { grid-area: content; }
+
