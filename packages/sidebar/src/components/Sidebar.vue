@@ -17,7 +17,7 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 .sidebar {
-  @apply h-screen shadow-xl;
+  @apply min-h-screen h-full shadow-xl;
 }
 
 .sidebar__title {

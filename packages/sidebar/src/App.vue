@@ -1,10 +1,10 @@
 <template>
-  <div class="sidebar-app">
+  <div class="sidebar-app h-full">
     <sidebar />
   </div>
 </template>
 
-<script>
+<script scoped>
 import "tailwindcss/tailwind.css";
 import Sidebar from "./components/Sidebar";
 
