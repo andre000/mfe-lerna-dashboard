@@ -2,8 +2,8 @@
   <div class="sidebar">
     <h1 class="sidebar__title">mfe-lerna-dashboard</h1>
     <ul class="sidebar__menu">
-      <li class="sidebar__item"><a href="/dashboard">Dashboard</a></li>
-      <li class="sidebar__item"><a href="/options">Options</a></li>
+      <li class="sidebar__item"><a onclick="singleSpaNavigate(event)" href="/dashboard">Dashboard</a></li>
+      <li class="sidebar__item"><a onclick="singleSpaNavigate(event)" href="/options">Options</a></li>
     </ul>
   </div>
 </template>
@@ -15,7 +15,7 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
+<style lang="postcss" scoped>
 .sidebar {
   @apply min-h-screen h-full shadow-xl;
 }
