@@ -3,5 +3,10 @@
   "private": true,
   "devDependencies": {
     "lerna": "^3.22.1"
-  }
+  },
+  "scripts": {
+    "install": "lerna exec yarn install",
+    "serve": "lerna run serve"
+  },
+  "license": "MIT"
 }
